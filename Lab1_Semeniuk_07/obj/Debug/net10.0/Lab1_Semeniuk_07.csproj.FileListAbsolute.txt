@@ -12,3 +12,4 @@
 /Users/mac/Desktop/C#LabsCourse2/CSharpLabsCourse2/Lab1_Semeniuk_07/obj/Debug/net10.0/Lab1_Semeniuk_07.pdb
 /Users/mac/Desktop/C#LabsCourse2/CSharpLabsCourse2/Lab1_Semeniuk_07/obj/Debug/net10.0/Lab1_Semeniuk_07.genruntimeconfig.cache
 /Users/mac/Desktop/C#LabsCourse2/CSharpLabsCourse2/Lab1_Semeniuk_07/obj/Debug/net10.0/ref/Lab1_Semeniuk_07.dll
+/Users/mac/Desktop/C#LabsCourse2/CSharpLabsCourse2/Lab1_Semeniuk_07/obj/Debug/net10.0/Lab1_Semeniuk_07.sourcelink.json

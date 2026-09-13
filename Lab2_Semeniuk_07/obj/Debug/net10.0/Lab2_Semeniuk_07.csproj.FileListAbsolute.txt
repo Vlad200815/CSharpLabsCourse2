@@ -1,0 +1,15 @@
+/Users/mac/Desktop/C#LabsCourse2/CSharpLabsCourse2/Lab2_Semeniuk_07/bin/Debug/net10.0/Lab2_Semeniuk_07
+/Users/mac/Desktop/C#LabsCourse2/CSharpLabsCourse2/Lab2_Semeniuk_07/bin/Debug/net10.0/Lab2_Semeniuk_07.deps.json
+/Users/mac/Desktop/C#LabsCourse2/CSharpLabsCourse2/Lab2_Semeniuk_07/bin/Debug/net10.0/Lab2_Semeniuk_07.runtimeconfig.json
+/Users/mac/Desktop/C#LabsCourse2/CSharpLabsCourse2/Lab2_Semeniuk_07/bin/Debug/net10.0/Lab2_Semeniuk_07.dll
+/Users/mac/Desktop/C#LabsCourse2/CSharpLabsCourse2/Lab2_Semeniuk_07/bin/Debug/net10.0/Lab2_Semeniuk_07.pdb
+/Users/mac/Desktop/C#LabsCourse2/CSharpLabsCourse2/Lab2_Semeniuk_07/obj/Debug/net10.0/Lab2_Semeniuk_07.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mac/Desktop/C#LabsCourse2/CSharpLabsCourse2/Lab2_Semeniuk_07/obj/Debug/net10.0/Lab2_Semeniuk_07.AssemblyInfoInputs.cache
+/Users/mac/Desktop/C#LabsCourse2/CSharpLabsCourse2/Lab2_Semeniuk_07/obj/Debug/net10.0/Lab2_Semeniuk_07.AssemblyInfo.cs
+/Users/mac/Desktop/C#LabsCourse2/CSharpLabsCourse2/Lab2_Semeniuk_07/obj/Debug/net10.0/Lab2_Semeniuk_07.csproj.CoreCompileInputs.cache
+/Users/mac/Desktop/C#LabsCourse2/CSharpLabsCourse2/Lab2_Semeniuk_07/obj/Debug/net10.0/Lab2_Semeniuk_07.sourcelink.json
+/Users/mac/Desktop/C#LabsCourse2/CSharpLabsCourse2/Lab2_Semeniuk_07/obj/Debug/net10.0/Lab2_Semeniuk_07.dll
+/Users/mac/Desktop/C#LabsCourse2/CSharpLabsCourse2/Lab2_Semeniuk_07/obj/Debug/net10.0/refint/Lab2_Semeniuk_07.dll
+/Users/mac/Desktop/C#LabsCourse2/CSharpLabsCourse2/Lab2_Semeniuk_07/obj/Debug/net10.0/Lab2_Semeniuk_07.pdb
+/Users/mac/Desktop/C#LabsCourse2/CSharpLabsCourse2/Lab2_Semeniuk_07/obj/Debug/net10.0/Lab2_Semeniuk_07.genruntimeconfig.cache
+/Users/mac/Desktop/C#LabsCourse2/CSharpLabsCourse2/Lab2_Semeniuk_07/obj/Debug/net10.0/ref/Lab2_Semeniuk_07.dll

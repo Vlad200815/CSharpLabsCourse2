@@ -12,16 +12,6 @@ public static class GuessGame
     private static GameStatus _gameStatus;
     private static int _trys;
 
-    /// <summary>
-    /// Generates a random number between (min and max values)
-    /// </summary>
-    /// <param name="min"></param>
-    /// <param name="max"></param>
-    static void GenerateNewGuessedNumber(int min, int max)
-    {
-        _random = new Random();
-        _guessNumber = _random.Next(min, max + 1);
-    }
     
     /// <summary>
     /// Init constructor with default values
@@ -31,6 +21,17 @@ public static class GuessGame
         _gameStatus = GameStatus.Initial;
         _trys = 0;
         GenerateNewGuessedNumber(1, 100);
+    }
+    
+    /// <summary>
+    /// Generates a random number between (min and max values)
+    /// </summary>
+    /// <param name="min"></param>
+    /// <param name="max"></param>
+    static void GenerateNewGuessedNumber(int min, int max)
+    {
+        _random = new Random();
+        _guessNumber = _random.Next(min, max + 1);
     }
     
     
