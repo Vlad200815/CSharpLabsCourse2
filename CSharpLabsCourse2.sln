@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab2_Semeniuk_07", "Lab2_Se
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab1_Semeniuk_07", "Lab1_Semeniuk_07\Lab1_Semeniuk_07.csproj", "{3D3B02C8-61A6-45F8-A824-4D91366CBC15}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab3_Semeniuk_07", "Lab3_Semeniuk_07\Lab3_Semeniuk_07.csproj", "{47C80300-C621-472F-A947-AC7C782D67F6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{3D3B02C8-61A6-45F8-A824-4D91366CBC15}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3D3B02C8-61A6-45F8-A824-4D91366CBC15}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3D3B02C8-61A6-45F8-A824-4D91366CBC15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47C80300-C621-472F-A947-AC7C782D67F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47C80300-C621-472F-A947-AC7C782D67F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47C80300-C621-472F-A947-AC7C782D67F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47C80300-C621-472F-A947-AC7C782D67F6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
