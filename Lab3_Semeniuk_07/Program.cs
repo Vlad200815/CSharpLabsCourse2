@@ -62,6 +62,8 @@ Console.WriteLine(divider);
 
 int selectedCount = 0;
 int selectedSum = 0;
+
+
 foreach (int number in numbers)
 {
     if (number < p)
