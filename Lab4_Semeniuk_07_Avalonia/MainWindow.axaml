@@ -1,0 +1,37 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="AvaloniaApplication1.MainWindow"
+        Title="Lab4_Semeniuk_07_Avalonia">
+
+    <StackPanel Margin="20" Spacing="10" HorizontalAlignment = "Center" VerticalAlignment="Top">
+        
+        <TextBlock x:Name="HeaderText" Text="Text processing" FontSize="24"/>
+        <TextBlock x:Name="StartingText" Text="Text processing" FontSize="16" Margin="0 12 0 0"/>
+        <TextBox x:Name="ProcessInput" Width="200" HorizontalAlignment="Left"/>
+        
+        <StackPanel Orientation="Horizontal" Spacing="20">
+            <Button Content="Process" Click="OnProcessButtonClicked" HorizontalAlignment="Center"/>
+            <Button Content="Clear" Click="OnClearButtonClicked" HorizontalAlignment="Center"/>
+        </StackPanel>
+        
+        <TextBlock x:Name="ResultText" Text="Result" FontSize="16" Margin="0 12 0 0 "/>
+        
+        <Border BorderBrush="Gray" BorderThickness="1" CornerRadius="4">
+            <ScrollViewer x:Name="OutputScrollViewer" 
+                          Height="250" 
+                          HorizontalScrollBarVisibility="Auto"
+                          VerticalScrollBarVisibility="Auto">
+                
+                <TextBlock x:Name="OutputTextBlock" 
+                           TextWrapping="Wrap" 
+                           Margin="8" />
+            </ScrollViewer>
+        </Border>
+   
+        <TextBlock x:Name="StatusText" Text="Status: Ready" FontSize="16" Margin="0 12 0 0 "/>
+        
+    </StackPanel>
+</Window>
