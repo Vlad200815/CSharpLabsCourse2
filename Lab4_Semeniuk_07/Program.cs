@@ -20,6 +20,8 @@ if (string.IsNullOrWhiteSpace(text))
 }
 
 
+
+
 int letterCount = 0;
 int digitCount = 0;
 int whiteSpaceCount = 0;

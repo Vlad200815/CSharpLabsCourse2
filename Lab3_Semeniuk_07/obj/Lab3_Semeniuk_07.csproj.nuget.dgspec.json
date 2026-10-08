@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/mac/Desktop/C#LabsCourse2/CSharpLabsCourse2/Lab3_Semeniuk_07/Lab3_Semeniuk_07.csproj": {}
+    "/Users/mac/Documents/C#LabsCourse2/CSharpLabsCourse2/Lab3_Semeniuk_07/Lab3_Semeniuk_07.csproj": {}
   },
   "projects": {
-    "/Users/mac/Desktop/C#LabsCourse2/CSharpLabsCourse2/Lab3_Semeniuk_07/Lab3_Semeniuk_07.csproj": {
+    "/Users/mac/Documents/C#LabsCourse2/CSharpLabsCourse2/Lab3_Semeniuk_07/Lab3_Semeniuk_07.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/mac/Desktop/C#LabsCourse2/CSharpLabsCourse2/Lab3_Semeniuk_07/Lab3_Semeniuk_07.csproj",
+        "projectUniqueName": "/Users/mac/Documents/C#LabsCourse2/CSharpLabsCourse2/Lab3_Semeniuk_07/Lab3_Semeniuk_07.csproj",
         "projectName": "Lab3_Semeniuk_07",
-        "projectPath": "/Users/mac/Desktop/C#LabsCourse2/CSharpLabsCourse2/Lab3_Semeniuk_07/Lab3_Semeniuk_07.csproj",
+        "projectPath": "/Users/mac/Documents/C#LabsCourse2/CSharpLabsCourse2/Lab3_Semeniuk_07/Lab3_Semeniuk_07.csproj",
         "packagesPath": "/Users/mac/.nuget/packages/",
-        "outputPath": "/Users/mac/Desktop/C#LabsCourse2/CSharpLabsCourse2/Lab3_Semeniuk_07/obj/",
+        "outputPath": "/Users/mac/Documents/C#LabsCourse2/CSharpLabsCourse2/Lab3_Semeniuk_07/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/mac/.nuget/NuGet/NuGet.Config"
