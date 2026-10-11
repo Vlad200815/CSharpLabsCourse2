@@ -10,6 +10,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab4_Semeniuk_07_Avalonia",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab4_Semiuk_07", "Lab4_Semeniuk_07\Lab4_Semiuk_07.csproj", "{6964C268-29EA-4A06-BFFA-5A43C5A37699}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab5_Semeniuk_07", "Lab5_Semeniuk_07\Lab5_Semeniuk_07.csproj", "{4AF090C7-98A7-4695-98FD-2349079E74A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab6_Semeniuk_07", "Lab6_Semeniuk_07\Lab6_Semeniuk_07.csproj", "{5D97B4FE-25FA-4027-9B83-408BF19075C6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +40,13 @@ Global
 		{6964C268-29EA-4A06-BFFA-5A43C5A37699}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6964C268-29EA-4A06-BFFA-5A43C5A37699}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6964C268-29EA-4A06-BFFA-5A43C5A37699}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4AF090C7-98A7-4695-98FD-2349079E74A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AF090C7-98A7-4695-98FD-2349079E74A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AF090C7-98A7-4695-98FD-2349079E74A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AF090C7-98A7-4695-98FD-2349079E74A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D97B4FE-25FA-4027-9B83-408BF19075C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D97B4FE-25FA-4027-9B83-408BF19075C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D97B4FE-25FA-4027-9B83-408BF19075C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D97B4FE-25FA-4027-9B83-408BF19075C6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
