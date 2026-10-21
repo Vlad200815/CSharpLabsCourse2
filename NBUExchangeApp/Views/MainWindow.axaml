@@ -1,0 +1,51 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="using:NBUExchangeApp.ViewModels"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:models="using:NBUExchangeApp.Models"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="NBUExchangeApp.Views.MainWindow"
+        x:DataType="vm:MainViewModel"
+        Icon="/Assets/avalonia-logo.ico"
+        Title="NBUExchangeApp">
+
+    <Design.DataContext>
+        <vm:MainViewModel />
+    </Design.DataContext>
+    
+    
+    <Grid Margin="20" RowDefinitions="Auto,Auto,Auto,*,Auto" RowSpacing="12">
+
+        <TextBlock Grid.Row="0" Text="Курс валют НБУ" FontSize="24" FontWeight="Bold" />
+
+        <TextBlock Grid.Row="1" Text="Джерело: bank.gov.ua (NBU Stat Service)" Opacity="0.7" />
+
+        <Button Grid.Row="2" Content="Завантажити з інтернету"
+                Command="{Binding LoadCommand}" Margin="0,16,0,0" />
+
+        <ListBox Grid.Row="3"
+                 CornerRadius="12"
+                 BorderThickness="0.5"
+                 BorderBrush="Gray"
+                 Padding="6"
+                 ItemsSource="{Binding Readings}"
+                 IsVisible="{Binding Readings, Converter={x:Static ObjectConverters.IsNotNull}}">
+            <ListBox.ItemTemplate>
+                <DataTemplate x:DataType="models:ExchangeReading">
+                    <Grid ColumnDefinitions="60,*,180,100" ColumnSpacing="12">
+                        <TextBlock Grid.Column="0" Text="{Binding Currency}" FontWeight="Bold" />
+                        <TextBlock Grid.Column="1" Text="{Binding Text}" />
+                        <TextBlock Grid.Column="2"
+                                   Text="{Binding Rate, StringFormat={}{0:F4} UAH за 1 од.}" />
+                        <TextBlock Grid.Column="3" Text="{Binding ExchangeDate}" Opacity="0.7" />
+                    </Grid>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+
+        <TextBlock Grid.Row="4" Text="{Binding Status}" FontStyle="Italic" />
+    </Grid>
+    
+
+</Window>
