@@ -14,16 +14,47 @@
         <vm:MainViewModel />
     </Design.DataContext>
     
-    
     <Grid Margin="20" RowDefinitions="Auto,Auto,Auto,*,Auto" RowSpacing="12">
-
+        
+        
+        <!-- Starting text -->
         <TextBlock Grid.Row="0" Text="Курс валют НБУ" FontSize="24" FontWeight="Bold" />
-
         <TextBlock Grid.Row="1" Text="Джерело: bank.gov.ua (NBU Stat Service)" Opacity="0.7" />
-
-        <Button Grid.Row="2" Content="Завантажити з інтернету"
-                Command="{Binding LoadCommand}" Margin="0,16,0,0" />
-
+        
+        
+        <!-- Buttons -->
+        <StackPanel Grid.Row="2" Orientation="Horizontal" Spacing="12" Margin="0,16,0,0">
+            <!-- Button (load data using api) -->
+            <Button Content="Завантажити з інтернету" Command="{Binding LoadCommand}" />
+            <!-- Button (save data from api to local storage) -->
+            <Button Content="Зберегти" Command="{Binding SaveCommand}" />
+            <!-- Button (open data from local storage) -->
+            <Button Content="Завантажити зі збережених" Command="{Binding  OpenCommand}" />
+        </StackPanel>
+        
+        <!-- Spinner -->
+        <Arc Grid.Row="3" Width="32" Height="32"
+             StartAngle="0" SweepAngle="270"
+             Stroke="DodgerBlue" StrokeThickness="4" StrokeLineCap="Round"
+             HorizontalAlignment="Center"
+             IsVisible="{Binding IsBusy}">
+            <Arc.Styles>
+                <Style Selector="Arc">
+                    <Style.Animations>
+                        <Animation Duration="0:0:1" IterationCount="Infinite">
+                            <KeyFrame Cue="0%">
+                                <Setter Property="RotateTransform.Angle" Value="0" />
+                            </KeyFrame>
+                            <KeyFrame Cue="100%">
+                                <Setter Property="RotateTransform.Angle" Value="360" />
+                            </KeyFrame>
+                        </Animation>
+                    </Style.Animations>
+                </Style>
+            </Arc.Styles>
+        </Arc>
+        
+        <!-- Form -->
         <ListBox Grid.Row="3"
                  CornerRadius="12"
                  BorderThickness="0.5"
@@ -43,7 +74,8 @@
                 </DataTemplate>
             </ListBox.ItemTemplate>
         </ListBox>
-
+        
+        <!-- Status text -->
         <TextBlock Grid.Row="4" Text="{Binding Status}" FontStyle="Italic" />
     </Grid>
     

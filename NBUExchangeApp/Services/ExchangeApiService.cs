@@ -1,16 +1,22 @@
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net.Http;
 using System.Text.Json;
+using System.Threading;
 using System.Threading.Tasks;
 using  NBUExchangeApp.Models;
+
 
 
 namespace NBUExchangeApp.Services;
 
 public class ExchangeApiService
 {
-    private static readonly HttpClient Client = new HttpClient();
+    private static readonly HttpClient Client = new HttpClient()
+    {
+        Timeout = TimeSpan.FromSeconds(15)
+    };
     
     const string ACHCodeKey = "r030";
     const string TextKey = "txt";
