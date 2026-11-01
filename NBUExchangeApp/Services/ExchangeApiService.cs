@@ -24,16 +24,17 @@ public class ExchangeApiService
     const string CurrencyKey = "cc";
     const string ExchangedateKey = "exchangedate";
     const string SpecialKey = "special";
+    
+    
+    public const string SourceName = "NBU-Exchange";
+    public const string SourceUrl = "https://bank.gov.ua/NBUStatService/v1/statdirectory/exchangenew?json"; 
 
     
     
-    public static async Task<List<ExchangeReading>> LoadExchangeDataAsync()
+    public static async Task<ExchangeSnapshot> LoadExchangeDataAsync()
     {
-        const string url = "https://bank.gov.ua/NBUStatService/v1/statdirectory/exchangenew?json";
-        
-            
         // Надсилаємо HTTP GET і отримуємо JSON як текст.
-        string json = await Client.GetStringAsync(url);
+        string json = await Client.GetStringAsync(SourceUrl);
         
         
         // Перетворюємо текст на дерево JSON-елементів.
@@ -56,7 +57,13 @@ public class ExchangeApiService
         }
 
 
-        return readings;
+        return new ExchangeSnapshot
+        {
+            DataSource = ExchangeApiService.SourceName,
+            SourceUrl = ExchangeApiService.SourceUrl,
+            SavedAt = DateTimeOffset.Now,
+            Readings = readings
+        };
     }
     
     

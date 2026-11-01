@@ -1,5 +1,6 @@
 namespace NBUExchangeApp.Services;
 
+using System.Text.Encodings.Web;
 using System.IO;
 using System.Text.Json;
 using System.Threading.Tasks;
@@ -11,7 +12,8 @@ public static class JsonFileService
     {
         WriteIndented = true,
         PropertyNamingPolicy = JsonNamingPolicy.CamelCase,
-        PropertyNameCaseInsensitive = true
+        PropertyNameCaseInsensitive = true,
+        Encoder = JavaScriptEncoder.UnsafeRelaxedJsonEscaping
     };
     
     
